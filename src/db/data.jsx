@@ -3,7 +3,7 @@ import { FaStar } from "react-icons/fa";
 const data = [
   {
     id: 1,
-    img:"./src/db/shoepics/nikeairmonrachIV.png",
+    img:"/nikeairmonrachIV.png",
     title: "Nike Air Monarch IV",
     star: <FaStar className="rating-star"/>,
     reviews: "(123 reviews)",
@@ -16,7 +16,7 @@ const data = [
   },
   {
     id: 2,
-    img: "./src/db/shoepics/nikeairvapormax+.png",
+    img: "/nikeairvapormax+.png",
     title: "Nike Air Vapormax Plus",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -29,7 +29,7 @@ const data = [
   },
   {
     id: 3,
-    img: "./src/db/shoepics/nikedunklowWB.png",
+    img: "/nikedunklowWB.png",
     title: "Nike Dunk Low Panda",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -43,7 +43,7 @@ const data = [
 
   {
     id: 4,
-    img: "./src/db/shoepics/vanscasualSeldanBlue.png",
+    img: "/vanscasualSeldanBlue.png",
     title: "Vans SeldanBlue",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -56,7 +56,7 @@ const data = [
   },
   {
     id: 5,
-    img: "./src/db/shoepics/pumasuedeXI.png",
+    img: "/pumasuedeXI.png",
     title: "PUMA Suede XI",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -69,7 +69,7 @@ const data = [
   },
   {
     id: 6,
-    img: "./src/db/shoepics/pumapacerfuture.png",
+    img: "pumapacerfuture.png",
     title: "PUMA Pacer Future",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -83,7 +83,7 @@ const data = [
 
   {
     id: 7,
-    img: "./src/db/shoepics/pumagolfFusion.png",
+    img: "/pumagolfFusion.png",
     title: "PUMA Fusion Golf",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -97,7 +97,7 @@ const data = [
   
   {
     id: 8,
-    img: "./src/db/shoepics/nikefreak.png",
+    img: "/nikefreak.png",
     title: "Nike Zoom Freak 2",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -111,7 +111,7 @@ const data = [
 
   {
     id: 9,
-    img: "./src/db/shoepics/nikezoomX.png",
+    img: "/nikezoomX.png",
     title: "Nike ZoomX",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -125,7 +125,7 @@ const data = [
 
   {
     id: 10,
-    img: "./src/db/shoepics/pumaslipstream.png",
+    img: "/pumaslipstream.png",
     title: "PUMA SlipStream",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -138,7 +138,7 @@ const data = [
   },
   {
     id: 11,
-    img: "./src/db/shoepics/pumasuede.png",
+    img: "/pumasuede.png",
     title: "PUMA Suede",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -151,7 +151,7 @@ const data = [
   },
   {
     id: 12,
-    img: "./src/db/shoepics/pumaspeedcatOG.png",
+    img: "/pumaspeedcatOG.png",
     title: "PUMA Speedcat OG",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -164,7 +164,7 @@ const data = [
   },
   {
     id: 13,
-    img: "./src/db/shoepics/nikewaffleone.png",
+    img: "/nikewaffleone.png",
     title: "Nike Waffle One Sneaker",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -177,7 +177,7 @@ const data = [
   },
   {
     id: 14,
-    img: "./src/db/shoepics/nikemarathon.png",
+    img: "/nikemarathon.png",
     title: "Nike Marathon",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -190,7 +190,7 @@ const data = [
   },
   {
     id: 15,
-    img: "./src/db/shoepics/balletflat.png",
+    img: "/balletflat.png",
     title: "Ballet Flats Slip On",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -203,7 +203,7 @@ const data = [
   },
   {
     id: 16,
-    img: "./src/db/shoepics/knitballetflat.png",
+    img: "/knitballetflat.png",
     title: "Knitted Ballet Flats",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -217,7 +217,7 @@ const data = [
 
   {
     id: 17,
-    img: "./src/db/shoepics/loaferflat.png",
+    img: "/loaferflat.png",
     title: "Loafer Flats",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -230,7 +230,7 @@ const data = [
   },
   {
     id: 18,
-    img: "./src/db/shoepics/vansrainbowcheckerboard.png",
+    img: "/vansrainbowcheckerboard.png",
     title: "Vans Rainbow Chex Skate",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -243,7 +243,7 @@ const data = [
   },
   {
     id: 19,
-    img: "./src/db/shoepics/vansclassicslipon.png",
+    img: "/vansclassicslipon.png",
     title: "Vans slip on True White",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -256,7 +256,7 @@ const data = [
   },
   {
     id: 20,
-    img: "./src/db/shoepics/chunkyhighheels.png",
+    img: "/chunkyhighheels.png",
     title: "Chunky High Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -269,7 +269,7 @@ const data = [
   },
   {
     id: 21,
-    img: "./src/db/shoepics/stilettohighheels.png",
+    img: "/stilettohighheels.png",
     title: "Slip On Stiletto Heel",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -282,7 +282,7 @@ const data = [
   },
   {
     id: 22,
-    img: "./src/db/shoepics/vegansuedeheels.png",
+    img: "/vegansuedeheels.png",
     title: "Dark Red Suede Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -296,7 +296,7 @@ const data = [
 
   {
     id: 23,
-    img: "./src/db/shoepics/suederoundtoeheels.png",
+    img: "/suederoundtoeheels.png",
     title: "Suede Round Toe Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -309,7 +309,7 @@ const data = [
   },
   {
     id: 24,
-    img: "./src/db/shoepics/chunkymaryjamesheels.png",
+    img: "/chunkymaryjamesheels.png",
     title: "Chunky Mary James Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -322,7 +322,7 @@ const data = [
   },
   {
     id: 25,
-    img: "./src/db/shoepics/pointedtoehighheels.png",
+    img: "/pointedtoehighheels.png",
     title: "Pointed-toe High Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -335,7 +335,7 @@ const data = [
   },
   {
     id: 26,
-    img: "./src/db/shoepics/dressbootieheels.png",
+    img: "/dressbootieheels.png",
     title: "Dress Bootie Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -348,7 +348,7 @@ const data = [
   },
   {
     id: 27,
-    img: "./src/db/shoepics/toesilettoemptymidheels.png",
+    img: "/toesilettoemptymidheels.png",
     title: "Toe Siletto Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",
@@ -361,7 +361,7 @@ const data = [
   },
   {
     id: 28,
-    img: "./src/db/shoepics/redtoesilettoemptymidheels.png",
+    img: "/redtoesilettoemptymidheels.png",
     title: "Red Toe Siletto Heels",
     star: <FaStar className="rating-star" />,
     reviews: "(123 reviews)",

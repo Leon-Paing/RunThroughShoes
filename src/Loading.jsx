@@ -12,7 +12,7 @@ const Loading= () => {
                             initial={{opacity:1}}
                             animate={{opacity:0.3}}
                             transition={{duration:1, ease: "easeInOut", repeat: Infinity}}>
-                    <img src="./src/logowebbg.png" alt="animation"/>
+                    <img src="/logowebbg.png" alt="animation"/>
                 </motion.div>
             </div>
         </AnimatePresence>
