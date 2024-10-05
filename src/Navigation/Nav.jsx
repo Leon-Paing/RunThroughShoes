@@ -43,7 +43,7 @@ function Nav(){
             </div>
 
             <div className="pagename">
-                <img src="./src/Navigation/pagename.png" alt="logo"/>
+                <img src="/pagename.png" alt="logo"/>
             </div>
 
             <div className="profile-container"> 

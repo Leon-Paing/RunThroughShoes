@@ -6,7 +6,7 @@ const NavForSecondary = () => {
     return(
         <nav className="order-navbar">
             <div className="pagename">
-            <Link to="/"><img src="./src/Navigation/pagename.png" alt="logo"/></Link>
+            <Link to="/"><img src="/pagename.png" alt="logo"/></Link>
             </div>
         </nav>
     )
