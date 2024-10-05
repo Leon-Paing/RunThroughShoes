@@ -24,7 +24,7 @@ const Card = ({id, img, title, star,reviews, prevPrice, newPrice, company, color
         
         <section className="card" onClick={onClick}>
             <div className="imgdiv">
-                <img className="card-img" src={img} alt="Shoe"/>
+                <img className="card-img" src={img} alt="Shoe" loading="lazy"/>
             </div>
             <div className="card-details">
                 <h3 className="card-title">{title}</h3>
