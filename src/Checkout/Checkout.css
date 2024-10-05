@@ -1,0 +1,284 @@
+#checkoutbody{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(0, 0%, 96%);
+    color: black;
+}
+.order-container{
+    width: 40%;
+    background: white;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 2px 2px hsl(0, 0%, 70%);
+}
+.order-navbar{
+    top:0;
+    width: 100%;
+    height: 5vh;
+    z-index: 9;
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    padding-right:0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid hsl(0, 0%, 30%);
+    background: hsl(0, 0%, 96%);
+}
+.order-item-detail{
+    display: flex;
+    width: 100%;
+}
+.order-item-visual{
+    width: 50%;
+    padding: 10px;
+    border-right: 0.1px solid hsl(0, 0%, 30%);
+}
+.order-img-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.order-img{
+    object-fit: contain;
+    width: 90%;
+    height: 130px;
+}
+
+.order-item-title{
+    padding: 5px;
+    font-size: 1.1rem;
+    border-bottom: 0.2px solid gray;
+}
+.order-item-price{
+    padding: 5px;
+    font-size: 0.8rem;
+}
+.order-item-size-quantity{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.size-container{
+    width: 100%;
+    height: 50%;
+}
+.size-label{
+    width: 90%;
+    height: 30%;
+    font-size: 1.2rem;
+    border-bottom: 0.2px solid gray;
+}
+.sizes{
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+}
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid hsl(190, 100%, 33%);
+    color: black;
+    margin-right: 4px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0.9rem;
+    transition: all 0.5s ease-in-out;
+}
+.size-selected{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid hsl(190, 100%, 33%);
+    background-color: hsl(190, 100%, 33%);
+    color: white;
+    margin-right: 4px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0.9rem;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.size:hover{
+    background-color: hsl(190, 100%, 33%);
+    color: white;
+    cursor: pointer;
+}
+.quantity-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.quantity-label{
+    width: 90%;
+    height: 30%;
+    font-size: 1.2rem;
+    border-bottom: 0.2px solid gray;
+}
+.quantity{
+    width: 90%;
+    height: 40%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reduce-quantity{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+}
+.add-quantity{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.quantity-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 2px;
+    min-width: 30px;
+    max-width: 30px;
+    height: 20px;
+    color: black;
+    cursor: default;
+}
+.quantity-display{
+    padding-top: 10px;
+    width: 90%;
+    height: 30%;
+    border-bottom: 0.2px solid gray;
+}
+.payment-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-top: 0.2px solid gray;
+}
+.payment-label{
+    font-size: 1.2rem;
+    width: 90%;
+    padding: 10px;
+    border-bottom: 0.2px solid gray;
+}
+.label-credential{
+    margin-bottom: 5px;
+}
+.payment-credentials{
+    width: 90%;
+    padding: 10px;
+}
+.credential-input{
+    height: 25px;
+    margin: 0;
+    padding: 5px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+.payment-method-container{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.payment-method{
+    min-width: 10px;
+    margin: 0;
+    margin-right: 5px;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+.confirm-home-container{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#backHome{
+    text-decoration: underline;
+    color: purple;
+}
+.confirm-button{
+    width: max-content;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    outline: none;
+    color: white;
+    background-color:  hsl(121, 94%, 30%);
+    border:none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.confirm-button:hover{
+    background-color:  hsl(121, 94%, 28%);
+}
+
+@media (max-width: 1080px){
+    .order-container{
+        width: 60%;
+    }
+    .confirm-home-container{
+        width: 60%;
+    }
+}
+
+@media (max-width: 590px){
+    .order-container{
+        width: 90%;
+    }
+    .order-item-title{
+        font-size: 0.7rem;
+    }
+    .size-label{
+        font-size: 0.8rem;
+    }
+    .quantity-label{
+        font-size: 0.8rem;
+    }
+    .payment-label{
+        font-size: 1rem;
+    }
+    .confirm-home-container{
+        width: 90%;
+    }
+}

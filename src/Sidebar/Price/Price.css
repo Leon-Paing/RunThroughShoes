@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Price-container{
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    font-family:  Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 30%);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    position: relative;
+}
+#price{
+    padding: 15px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    width: 90%;
+    border:none;
+    border-bottom:  1px solid hsl(0, 0%, 30%);
+    transition: all 0.5s ease-in-out;
+}
+#price:hover{
+    background-color:hsl(24, 96%, 8%);
+}
+.arr{
+    font-size: 0.8em;
+}
+.prices{
+    width: 100%;
+    margin-left: 10px;
+    border-left:  1px solid hsl(0, 0%, 30%);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: start;
+    backdrop-filter: blur(20px);
+}
+.price-option-label{
+    padding: 5px;
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.price-option-label:hover{
+    margin-left: 10px;
+    border-left: 6px solid #036704;
+}
+.price-option-label:active{
+    background-color: #036704;
+}
+
+.radios{
+    display: none;
+}

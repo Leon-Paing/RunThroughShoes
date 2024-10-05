@@ -1,0 +1,17 @@
+.loadingContainer{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadAnimation{
+    display: flex;
+    align-items: center;
+}
+.loadAnimation img{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+}

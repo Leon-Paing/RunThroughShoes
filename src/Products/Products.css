@@ -1,0 +1,215 @@
+.card-container{
+    overflow: auto;
+    font-family:  Courier, monospace;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-top: 0;
+    background: black;
+}
+
+.card{
+    overflow: hidden;
+    width: 100%;
+    background: transparent;
+    color: white;
+    backdrop-filter: blur(20px);
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 280px;
+    max-height: 280px;
+    margin: 20px;
+    border: 1px solid hsl(0, 0%, 30%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: 0 60px 200px -60px rgb(158, 128, 182);
+}
+.card:hover{
+    max-width: 250px;
+    max-height: 290px;
+    border: 0.5px solid hsl(190, 100%, 33%);
+    flex-wrap: wrap-reverse;
+    position: relative;
+}
+
+.imgdiv{
+    padding-top: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    border-bottom: 2px solid hsl(0, 0%, 30%);
+    display: flex;
+    align-items: center;
+}
+.card-img{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 20px 200px -60px rgb(158, 128, 182);
+    transition: all 1s ease-in-out;
+}
+.card-img:hover{
+    width: 120%;
+    height: 110px;
+}
+.card-details{
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-title{
+    display: flex;
+    text-align: start;
+    align-items: flex-start;
+    min-height: 20px;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+#size-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+#size-title{
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 0.9rem;
+}
+#sizes{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-start;
+}
+#size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid hsl(190, 100%, 33%);
+    color: white;
+    margin-right: 4px;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0.9rem;
+    transition: all 1s ease-in-out;
+}
+
+.card-reviews{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rating-star{
+    margin-bottom: 5px;
+    color: #d5ab55;
+}
+
+.total-reviews{
+    font-size: 1rem;
+}
+
+.card-price{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+}
+.cart-icon{
+    text-align: end;
+    color: white;
+    margin-right: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.cart-icon:hover{
+    color: rgb(247, 102, 5);
+}
+.heart-icon{
+    text-align: end;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.heart-icon:hover{
+    color: rgb(247, 102, 5);
+}
+
+.x{
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: end;
+    margin-right: 8px;
+}
+
+.x:hover{
+    color: rgb(247, 102, 5);
+}
+
+/*Responsive*/
+
+@media  screen and (max-width: 1030px){
+    .card{
+        min-width: 340px;
+        max-width: 340px;
+    }
+    #size-title{
+        width: 12%;
+    }
+    #sizes{
+        width: 88%;
+    }
+}
+@media screen and (max-width: 940px){
+    .card{
+        min-width: 270px;
+        max-width: 270px;
+    }
+}
+@media screen and (max-width: 770px){
+    .card{
+        min-width: 250px;
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 590px){
+    .card{
+        min-width: 190px;
+        max-width: 190px;
+        font-size: 0.7rem;
+        height: auto;
+    }
+    .card:hover{
+        max-width: 190px;
+    }
+    .card-title{
+        font-size: 0.8rem;
+    }
+    #size-title{
+        width: 20%;
+    }
+    #sizes{
+        width: 80%;
+    }
+    .total-reviews{
+        font-size: 0.7rem;
+    }
+}
+
