@@ -23,7 +23,7 @@ Live: https://run-through-shoes.vercel.app/
 
 ## Usage
 - **Browse Shoes**:  View a variety of shoes displayed in a grid layout.
-- **Apply Filters**:  Filter shoes by brand, price, or type to find exactly what you’re looking for.
+- **Apply Filters**:  Filter shoes by brand, price, or color to find exactly what you’re looking for.
 - **WishList**: Add your favourite item list to check later.
 - **Cart**: Add list of items to checkout.
 - **Checkout**: Choose available size and quantity to confirm checkout with providing necessary infos.
