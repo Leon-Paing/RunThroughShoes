@@ -1,8 +1,30 @@
-# React + Vite
+# RunThroughShoes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RunThroughShoes is a dynamic, React-based frontend application where users can browse, filter, and view details for various shoe models. Built with modern web technologies, it offers an interactive and responsive experience for users.
 
-Currently, two official plugins are available:
+Live: https://run-through-shoes.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Usage](#usage)
+
+## Features
+- **View Shoes**: Explore available shoes with photos and details.
+- **Filters**: Search by Brand, Ctegory, Color, Price.
+- **WishList**: List of favourite items to check later.
+- **Cart**: List of tems to checkout.
+- **Checkout**: Confirm Order.
+- **Responsiveness**: Compatible for all screens. Desktops to Mobiles.
+
+## Tech Stack
+- **Front End**: React, Vite, Framer Motion.
+- **Hosting**: Vercel
+
+## Usage
+- **Browse Shoes**:  View a variety of shoes displayed in a grid layout.
+- **Apply Filters**:  Filter shoes by brand, price, or type to find exactly what you’re looking for.
+- **WishList**: Add your favourite item list to check later.
+- **Cart**: Add list of items to checkout.
+- **Checkout**: Choose available size and quantity to confirm checkout with providing necessary infos.
+ 
